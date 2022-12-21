@@ -3,13 +3,14 @@ def is_factor(a, b):
     Returns True if a is a factor of b, false otherwise.
 
     # Examples:
-     * `is_factor(7, 21)` would evaluate to `True` because 7 is a factor of 21. It goes into 21 with no remainder.
-     * `is_factor(4, 9)` would evaluate to `False` because 4 isn't a factor of 9. It goes into 9 with a remainder of 1.
+     * `is_factor(7, 21)` would evaluate to `True`. 
+     * `is_factor(4, 9)` would evaluate to `False`. 
     """
     if b % a == 0:
         return True
     else:
         return False
+
 
 def find_factors(n):
     """
