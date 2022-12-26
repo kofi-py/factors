@@ -7,4 +7,9 @@ class TestFactors(unittest.TestCase):
         testcase = 24
         expected = [1, 2, 3, 4, 6, 8, 12, 24]
         self.assertEqual(find_factors(testcase), expected)
+    def test_prime(self):
+        testcase = 7
+        expected = [1, 7]
+        self.assertEqual(find_factors(testcase), expected)
+
 unittest.main()
